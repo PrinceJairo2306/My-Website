@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <title>My Portfolio</title>
 </head>
-<body class="font-roboto bg-slate-900 text-white">
+<body class="font-Poppins bg-slate-900 text-white">
     <!-- nav bar -->
         <nav class="relative bg-slate-900">
             <!-- flex container -->
@@ -17,7 +17,7 @@
                     <img  class="hover:animate-spin hover:scale-125 duration-300" src="prince_logo.png" alt="">
                 </div>
                 <!-- Nav items -->
-                <div class="pt-6 pr-16 text-lg text-cyan-300 font-roboto space-x-11 font-medium hidden md:flex ">
+                <div class="pt-6  pr-16 text-lg text-cyan-300 font-Poppins space-x-11 font-medium hidden md:pt-1 md:flex ">
                     <a href="#home" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Home</a>
                     <a href="#about-me" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">About Me</a>
                     <a href="#skills" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Skills</a>
@@ -133,9 +133,81 @@
 
     <!-- About Me -->
 
-    <section id="about-me">
-        <div class="">
-            <h2>About Me</h2>
+    <section id="about-me" class="bg-white text-slate-900">
+        <!-- about me container -->
+        <div class="pt-8 md:pt-12">
+            <!-- header about me -->
+            <h1 class="text-center text-4xl sm:text-4xl lg:text-6xl font-bold">
+                <ion-icon class="text-cyan-300" name="code-outline"  aria-label="code outline"></ion-icon>
+                 ABOUT ME 
+                <ion-icon class="text-cyan-300" name="code-slash-outline"  aria-label="code slash outline">
+            </ion-icon>
+            </h1>
+            <!-- about me content -->
+            <div class="flex flex-col justify-center m-8  md:space-x-16 md:flex-row">
+                <!-- image -->
+                <div class="mx-auto  m-8 rounded-full md:mx-10 md:pt-16"  style="width:300px;" >
+                    <img class="rounded-full" src="about me photo.jpg" alt="">
+                </div>
+                <!-- about me card -->
+                <div class="bg-gray-200  rounded-md p-6 md:w-5/12">
+                    <p class="text-gray-800 text-base my-3  py-2">
+                        Hello! I'm <strong class="text-cyan-500">Prince</strong> I am an aspiring Web Developer.
+                        I'm a fresh graduate that aims to widen my skills by contributing to a company that
+                        would welcome me.
+                        I have passion for coding especially in web development.
+                    </p>
+                    <div>
+                        <h1 class="text-gray-800  text-2xl mb-2 font-extralight ">School Graduated</h1>
+                        <hr>
+                        <div class="my-2">
+                            <a href="#">
+                                <p class="text-primary font-bold text-base ">
+                                    Partido State University
+                                 </p>
+                             </a>
+                            <p class="text-gray-800 text-base ">
+                                Bachelor of Science in Computer Science
+                             </p>
+                            <p class="text-gray-800 text-base ">
+                                May 2022
+                             </p>
+                        </div>
+                        <hr>
+                        <div class="my-2">
+                            <a href="#">
+                                <p class="text-primary font-bold text-base ">
+                                    Senior High School
+                                 </p>
+                             </a>
+                            <p class="text-gray-800 text-base ">
+                                General Academic Strand
+                             </p>
+                            <p class="text-gray-800 text-base ">
+                                April 2018
+                             </p>
+                        </div>
+                        
+                    </div>
+                    <br>
+                    <div>
+                        <h1 class="text-gray-800 mb-4 text-2xl font-extralight ">Contact Information</h1>
+
+                        <p class="text-gray-800 text-base ">
+                            <span class="text-cyan-500">Current Address:</span>  Purok 1, Block 2, L210E, M. Dolleton
+                            <br> Bayanan Muntilupa City 1772
+                         </p>
+                        <p class="text-gray-800 text-base ">
+                            <span class="text-cyan-500">Gmail:</span>  pjfortuna2306@gmail.com
+                        </p>
+                        <p class="text-gray-800 text-base ">
+                            <span class="text-cyan-500">Contact Number:</span>  09093121204
+                         </p>
+                    </div>
+                </div>
+            </div>
+            
+            
         </div>
         
         

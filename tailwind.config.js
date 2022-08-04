@@ -9,7 +9,7 @@ module.exports = {
       xl: '1440px',
     },
     fontFamily:{
-      'roboto': ['Roboto', 'sans-serif']
+      Poppins: ['Poppins', 'sans-serif']
     },
     extend: {
     },
