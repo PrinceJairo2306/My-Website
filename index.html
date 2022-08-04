@@ -7,29 +7,47 @@
     <link rel="stylesheet" href="css/main.css">
     <title>My Portfolio</title>
 </head>
-<body class="h-full font-roboto bg-slate-900 text-white">
-
+<body class="font-roboto bg-slate-900 text-white">
     <!-- nav bar -->
-        <nav class="relative container  mx-auto ">
+        <nav class="relative">
             <!-- flex container -->
-            <div class="flex justify-between" >
-                <div class="relative md:top-2 md:-left-7 w-20 md:w-28">
+            <div class="flex items-center justify-between" >
+                <!-- logo -->
+                <div class="w-28">
                     <img  class="hover:animate-spin hover:scale-125 duration-300" src="prince_logo.png" alt="">
                 </div>
-                <div class="py-6 text-lg text-cyan-300 font-roboto space-x-11 font-medium hidden md:flex ">
+                <!-- Nav items -->
+                <div class="py-6 pr-16 text-lg text-cyan-300 font-roboto space-x-11 font-medium hidden md:flex ">
                     <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Home</a>
-                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Interests</a>
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">About Me</a>
                     <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Skills</a>
                     <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Projects</a>
                     <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Contact</a>
                  </div>
+                 <!-- Hamburger Icon -->
+                <button id="menu-btn" class="block hamburger px-6 md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+             <!-- Mobile Menu -->
+            <div class="md:hidden">
+                <div id="menu" class="fixed bg-opacity-70 rounded-lg flex-col text-cyan-300 hidden bg-slate-700 items-center self-end
+                 py-8 mt-10 space-y-6 font-semibold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md ease-in-out duration-300">
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Home</a>
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">About Me</a>
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Skills</a>
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Projects</a>
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Contact</a>
+                </div>
             </div>
         </nav>
 
 
     <!-- body -->
     <div class="container justify-center mx-auto flex flex-col-reverse 
-    items-center md:pt-20 lg:pt-16 md:items-start md:flex-row md:space-x-28 ">
+    items-center mb-16 md:mb-28 md:pt-20 lg:pt-16 md:items-start md:flex-row md:space-x-28 ">
         <!-- introduction section -->
             <div class="text-2xl md:pt-2 md:text-4xl  md:text-left">
                 <!-- paragraph -->
@@ -44,7 +62,7 @@
                     <div>
                         <a href="Fortuna Princes Jairo .pdf" target="_blank">
                             <button class="bg-transparent text-white mt-3 py-2 px-4 border border-white 
-                        rounded-md hover:scale-110 duration-300">
+                        rounded-md hover:scale-105  hover:bg-teal-600 hover:border-teal-600 duration-300">
                             Download CV
                         </button>
                         </a>
@@ -79,7 +97,7 @@
              <!-- profile image section -->
              <div class="mb-5 md:mb-2">
                <div style="width:300px" class="border-8 border-black rounded-full ">
-                 <img  class="border-8 border-slate-900 rounded-full hover:border-teal-500"src="profile-img-edited.png" alt="">
+                 <img  class="border-8 border-slate-900 rounded-full hover:border-teal-600"src="profile-img-edited.png" alt="">
                </div>
                <!-- icons -->
                <div class="text-center mt-3 hidden md:block " style="font-size: 50px;">
@@ -108,33 +126,36 @@
     </div>
 
 
+    <!-- About Me -->
 
-
-   
-    <!-- What I Do -->
-
-    <section id="whatIDo">
-        <!-- heading for the heading and what i do blocks -->
-        <div class="bg-slate-700 mx-auto p-6 mt-32 text-center max-w-full bg-teal-500">
-            
-            <ion-icon name="logo-facebook" class="front text-white duration-300
-             hover:scale-125 md" role="img" aria-label="logo facebook"></ion-icon>
-            <p>dsadsa</p>
-            <p>dsadsa</p>
-            <p>dsadsa</p>
-            <p>dsadsa</p>
-            <!-- <p class="max-w-sm text-xl font-thin text-center mt-8 md:mt-7 md:text-left">I am  a passionate and highly motivated developer who always aims to be productive.
-                I design and develop services for costumers like websites and stuffs.
-                    </p> -->
-            <p>dsadsa</p>
-            <p>dsadsa</p>
-            <p>dsadsa</p>
-            <p>dsadsa</p>
-            <p>dsadsa</p>
-            
+    <section id="about">
+        <div class="">
+            <h2>About Me</h2>
         </div>
+        
+        
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- SCRIPTS -->
+    <script src="js/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
