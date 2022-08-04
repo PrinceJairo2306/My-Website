@@ -11,13 +11,13 @@
     <!-- nav bar -->
         <nav class="relative bg-slate-900">
             <!-- flex container -->
-            <div class="flex items-center justify-between" >
+            <div class="fixed w-full z-10  flex bg-slate-900 items-center justify-between " >
                 <!-- logo -->
-                <div class="w-20 md:w-28">
+                <div class="w-16 md:w-20">
                     <img  class="hover:animate-spin hover:scale-125 duration-300" src="prince_logo.png" alt="">
                 </div>
                 <!-- Nav items -->
-                <div class="pt-6  pr-16 text-lg text-cyan-300 font-Poppins space-x-11 font-medium hidden md:pt-1 md:flex ">
+                <div class="pr-6 text-lg text-cyan-300 font-Poppins space-x-6 font-medium hidden md:flex ">
                     <a href="#home" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Home</a>
                     <a href="#about-me" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">About Me</a>
                     <a href="#skills" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Skills</a>
@@ -33,7 +33,7 @@
             </div>
              <!-- Mobile Menu -->
             <div class="md:hidden">
-                <div id="menu" class="fixed bg-opacity-70 rounded-lg flex-col text-cyan-300 hidden bg-slate-800 items-center self-end
+                <div id="menu" class="z-20 fixed bg-opacity-70 rounded-lg flex-col text-cyan-300 hidden bg-slate-800 items-center self-end
                  py-8 mt-10 space-y-6 font-semibold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md ease-in-out duration-300">
                     <a href="#home" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Home</a>
                     <a href="#about-me" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">About Me</a>
@@ -50,8 +50,8 @@
     <!-- HOME -->
 
     <section id="home">
-        <div class="container justify-center mx-auto flex flex-col-reverse 
-             items-center mb-16 md:mb-28 md:pt-20 lg:pt-16 md:items-start md:flex-row md:space-x-28 ">
+        <div class="pt-20 container justify-center mx-auto flex flex-col-reverse 
+             items-center mb-16 md:mb-28 md:pt-40 md:items-start md:flex-row md:space-x-28 ">
              <!-- introduction section -->
             <div class="text-2xl md:pt-2 md:text-4xl  md:text-left">
                 <!-- paragraph -->
@@ -133,7 +133,7 @@
 
     <!-- About Me -->
 
-    <section id="about-me" class="bg-white text-slate-900">
+    <section id="about-me" class="bg-white text-slate-900 p-6">
         <!-- about me container -->
         <div class="pt-8 md:pt-12">
             <!-- header about me -->
@@ -144,9 +144,9 @@
             </ion-icon>
             </h1>
             <!-- about me content -->
-            <div class="flex flex-col justify-center m-8  md:space-x-16 md:flex-row">
+            <div class="flex flex-col justify-center m-8 md:space-x-16 md:flex-row">
                 <!-- image -->
-                <div class="mx-auto mb-8 rounded-full md:mx-10 md:pt-16"  style="width:300px;" >
+                <div class="mx-auto mb-8 rounded-full md:mx-10 md:pt-20"  style="width:300px;" >
                     <img class="rounded-full" src="about me photo.jpg" alt="">
                 </div>
                 <!-- about me card -->
