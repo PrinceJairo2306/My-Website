@@ -17,7 +17,7 @@
                     <img  class="hover:animate-spin hover:scale-125 duration-300" src="prince_logo.png" alt="">
                 </div>
                 <!-- Nav items -->
-                <div class="pr-6 text-lg text-cyan-300 font-Poppins space-x-6 font-medium hidden md:flex ">
+                <div class="pr-6 text-lg text-cyan-300 font-Poppins space-x-14 font-medium hidden md:flex ">
                     <a href="#home" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Home</a>
                     <a href="#about-me" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">About Me</a>
                     <a href="#skills" class="hover:underline underline-offset-8 hover:text-green-300 hover:scale-110 duration-300">Skills</a>
@@ -100,8 +100,8 @@
               </div>
              <!-- profile image section -->
              <div class="mb-5 md:mb-2">
-               <div style="width:300px" class="border-8 border-black rounded-full ">
-                 <img  class="border-8 border-slate-900 rounded-full hover:border-teal-600"src="profile-img-edited.png" alt="">
+               <div style="width:300px" class="">
+                 <img  class="rounded-full "src="profile-img-edited.png" alt="">
                </div>
                <!-- icons -->
                <div class="text-center mt-3 hidden md:block " style="font-size: 50px;">
@@ -133,9 +133,9 @@
 
     <!-- About Me -->
 
-    <section id="about-me" class="bg-white text-slate-900 p-6">
+    <section id="about-me" class="bg-gray-600 text-slate-900 p-6">
         <!-- about me container -->
-        <div class="pt-8 md:pt-12">
+        <div class="pt-6 md:pt-8">
             <!-- header about me -->
             <h1 class="text-center text-4xl sm:text-4xl lg:text-6xl font-bold">
                 <ion-icon class="text-cyan-300" name="code-outline"  aria-label="code outline"></ion-icon>
@@ -144,18 +144,18 @@
             </ion-icon>
             </h1>
             <!-- about me content -->
-            <div class="flex flex-col justify-center m-8 md:space-x-16 md:flex-row">
+            <div class="flex mx-auto flex-col justify-center m-8 md:space-x-16 md:flex-row">
                 <!-- image -->
-                <div class="mx-auto mb-8 rounded-full md:mx-10 md:pt-20"  style="width:300px;" >
+                <div class="mb-8 rounded-full md:mx-10 md:pt-20"  style="width:300px;" >
                     <img class="rounded-full" src="about me photo.jpg" alt="">
                 </div>
                 <!-- about me card -->
-                <div class="bg-gray-200  rounded-md p-6 md:w-5/12">
+                <div class="bg-gray-200 rounded-md p-6 md:w-5/12">
                     <p class="text-gray-800 text-base my-3  py-2">
                         Hello! I'm <strong class="text-cyan-500">Prince</strong> I am an aspiring Web Developer.
                         I'm a fresh graduate that aims to widen my skills by contributing to a company that
                         would welcome me.
-                        I have passion for coding especially in web development.
+                        I have passion for coding and always want to level up my capabilities.
                     </p>
                     <div>
                         <h1 class="text-gray-800  text-2xl mb-2 font-extralight ">School Graduated</h1>
@@ -215,13 +215,141 @@
 
 
     <!-- Skills-->
-
-    <section id="skills">
-        <div class="">
-            <h2>Skills</h2>
+    <section id="skills" class="bg-white">
+        <!-- SKILLS MAIN CONTAINER -->
+        <div class="max-w-6xl mx-auto  text-slate-900 py-12">
+            <!-- SKILL TITLE -->
+            <div>
+                <h1 class="text-center text-5xl sm:text-4xl lg:text-6xl font-bold">
+                    <ion-icon class="text-cyan-300" name="code-outline"  aria-label="code outline"></ion-icon>
+                     SKILLS
+                    <ion-icon class="text-cyan-300" name="code-slash-outline"  aria-label="code slash outline">
+                </ion-icon>
+            </div>
+            
+            <!-- CONTENT CONTAINER OF SKILLS -->
+            <div>
+                    <!--CARDS CONTAINER FOR SKILL-->
+                    <div class="flex flex-col md:flex-row p-6 md:space-x-10">
+                        <!-- card 1-->
+                        <div class="md:w-1/3">
+                            <div class="h-36 w-36 mx-auto text-center">
+                                <img src="dynamic.png" alt="">
+                                
+                            </div>
+                            <div class="mx-auto text-center font-bold text-4xl" >INTERACTIVE</div>
+                            <p class="text-center">I want to develop a system/website
+                                    that is fully functional and has feature-rich pages.</p>
+                        </div>
+                        
+                        <!-- card 2-->
+                        <div class="md:w-1/3">
+                            <div class="h-36 w-36 mx-auto text-center">
+                                <img src="resposive-logo.png" alt="">
+                                
+                            </div>
+                            <div class="mx-auto text-center font-bold text-4xl" >RESPONSIVE</div>
+                            <p class="text-center">I want to develop a system/website that can
+                                    work on any device, regardless the size.</p>
+                        </div>
+                        <!-- card 3-->
+                        <div class="md:w-1/3">
+                            <div class="h-36 w-36 mx-auto text-center">
+                                <img src="animated-logo.png" alt="">
+                                
+                            </div>
+                            <div class="mx-auto text-center font-bold text-4xl" >DESIGN</div>
+                            <p class="text-center">I want to develop a system/website that is clean
+                                and at the same time have a lot of cool animation and effects.</p>
+                        </div>
+                    </div>
+                    <!-- TOOLS AND FRAMEWORKS -->
+                    <div class="space-y-6">
+                        <!-- CARDS TITLE -->
+                        <h2 class="mx-auto text-center font-bold text-2xl">TOOLS <br> AND <br> FRAMEWORKS</h2>
+                        <!-- TOOLS CONTAINER-->
+                        <div class="flex flex-col md:flex-row mx-auto space-y-6">
+                            <div class="mx-auto space-y-4 px-4">
+                                <!-- EXPERTISE -->
+                                <h2 class="text-teal-400 text-center font-medium text-2xl">Expertise</h2>
+                                <div class="flex md:flex-row space-x-6">
+                                    <!-- HTML -->
+                                    <div class="text-center mt-auto">
+                                        <img class="w-16  mx-auto" src="html-logo.png" alt="">
+                                        <h4 class="text-lg font-medium">HTML</h4>
+                                    </div>
+                                    <!-- CSS -->
+                                    <div class="text-center mt-auto">
+                                        <img class="w-16 mx-auto" src="css-logo.png" alt="">
+                                        <h4 class="text-lg font-medium">CSS</h4>
+                                    </div>
+                                    <!-- TAILWIND -->
+                                    <div class="text-center mt-auto">
+                                        <img class="w-16 pb-3 mx-auto" src="tailwindcss logo.ae552627.svg" alt="">
+                                        <h4 class="text-lg font-medium">TAILWIND</h4>
+                                    </div>
+                                    <!-- GIT -->
+                                    <div class="text-center ">
+                                        <img class="w-16 mx-auto" src="git-logo.png" alt="">
+                                        <h4 class="text-lg font-medium">Git</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- OTHERS -->
+                            <div class="mx-auto">
+                                <h2 class="text-teal-400 text-center font-medium text-2xl">Others</h2>
+                                <div class="flex md:flex-row space-x-6">
+                                    <!-- JAVASCRIPT -->
+                                <div class="text-center ">
+                                    <img class="w-16 mx-auto" src="JavaScript-logo.png" alt="">
+                                    <h4 class="text-lg font-medium">JAVASCRIPT</h4>
+                                </div>
+                                
+                                <!-- PHP -->
+                                <div class="text-center mt-auto">
+                                    <img class="w-16 pb-3 mx-auto" src="PHP-logo.svg.png" alt="">
+                                    <h4 class="text-lg font-medium">PHP</h4>
+                                </div>
+                                <!-- JAVA -->
+                                <div class="text-center mt-auto">
+                                    <img class="w-16 mx-auto" src="java-logo.svg" alt="">
+                                    <h4 class="text-lg font-medium">JAVA</h4>
+                                </div>
+                                <!-- ANGULAR-->
+                                <div class="text-center ">
+                                    <img class="w-16 mx-auto" src="angular-svg.png" alt="">
+                                    <h4 class="text-lg font-medium">ANGULAR</h4>
+                                </div>
+                            </div>
+                                </div>
+                                
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+            </div>
         </div>
         
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
 
     <!-- Projects -->
